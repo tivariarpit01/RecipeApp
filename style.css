@@ -1,0 +1,227 @@
+/* Reset some default browser styles */
+body,
+h1,
+h2,
+h3,
+p,
+a,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+/* Body styling */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* Header styling */
+.header {
+  background: #333;
+  color: #fff;
+  padding: 1rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+}
+
+.header .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+.navbar a {
+  color: #fff;
+  margin: 0 1rem;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.navbar a:hover,
+.navbar a.active {
+  color: #f39c12;
+}
+
+/* Home section styling */
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
+  background: #f4f4f4;
+}
+
+.home-content h1 span {
+  color: #f39c12;
+}
+
+.btn-box {
+  margin-top: 1rem;
+}
+
+.btn-box .btn-1,
+.btn-box .btn-2 {
+  padding: 0.5rem 1rem;
+  margin-right: 0.5rem;
+  border: none;
+  background: #f39c12;
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.btn-box .btn-1:hover,
+.btn-box .btn-2:hover {
+  background: #e67e22;
+}
+
+.img-box img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+/* About section styling */
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
+}
+
+.about-content {
+  max-width: 50%;
+}
+
+.heading span {
+  color: #f39c12;
+}
+
+.about-content h3 span {
+  color: #f39c12;
+}
+
+/* Skills section styling */
+.skills {
+  background: #f4f4f4;
+  padding: 2rem;
+  text-align: center;
+}
+
+.skills h2 {
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+
+.box {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.box-1,
+.box-2,
+.box-3,
+.box-4 {
+  text-align: center;
+  margin: 1rem;
+}
+
+.box img {
+  max-width: 100px;
+  height: auto;
+  display: block;
+  margin: 0 auto 1rem auto;
+}
+
+/* Resume section styling */
+.resume {
+  padding: 2rem;
+  text-align: center;
+}
+
+.resume h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.resume a {
+  background: #f39c12;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+}
+
+.resume a:hover {
+  background: #e67e22;
+}
+
+/* Contact section styling */
+.contact {
+  padding: 2rem;
+  text-align: center;
+}
+
+.contact h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.contact h2 {
+  margin: 1rem 0;
+  font-size: 1.2rem;
+}
+
+.contact a {
+  color: #f39c12;
+  transition: color 0.3s ease;
+}
+
+.contact a:hover {
+  color: #e67e22;
+}
+
+/* Footer styling */
+.footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.footer .social a {
+  color: #fff;
+  margin: 0 0.5rem;
+  transition: color 0.3s ease;
+}
+
+.footer .social a:hover {
+  color: #f39c12;
+}
+
+.footer .list {
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0;
+}
+
+.footer .list li {
+  margin: 0 0.5rem;
+}
+
+.footer .list a {
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+.footer .list a:hover {
+  color: #f39c12;
+}
